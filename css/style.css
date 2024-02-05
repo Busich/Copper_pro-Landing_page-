@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.container {
+  position: relative;
+  max-width: 1397px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header */
+
+.acount_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_text {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 68px 413px 4px 100px;
+}
+.link_text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.logo_img {
+  margin-top: 50px;
+}
+.heart_img {
+  background-color: white;
+  width: 50px;
+  height: 83px;
+  margin-left: 20px;
+}
+.heart_imgg {
+  background-color: white;
+  width: 50px;
+  height: 83px;
+}
+
+.heart_class {
+  margin-top: 42px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 40px 10px 13px 10px;
+}
+/* Slider */
+.wrapper {
+  max-width: 100vh;
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+}
+.bg_jpg {
+  z-index: 10000;
+  width: 1520px;
+  height: 100vh;
+}
+.bg_jpgs {
+  position: absolute;
+  z-index: 10000;
+  width: 1520px;
+  height: 100vh;
+}
+.header_main_text {
+  position: absolute;
+  width: 1397px;
+  height: 431px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 90px 736px 0px 85px;
+}
+.heats_of_sales {
+  margin-left: 170px;
+}
+.title {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-family: "Lighthaus Regular";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+}
+.h2_main_title::after {
+  content: "";
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 623px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    #fff -0.02%,
+    rgba(255, 255, 255, 0) 100.02%
+  );
+}
+.h2_title {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 96.4%;
+  margin-top: 0px;
+}
+.price {
+  margin: 40px 0px 40px 0px;
+}
+
+.button_h {
+  width: 327px;
+  height: 50px;
+  background: linear-gradient(92deg, #5e3928 20.13%, #e4a16f 92.93%);
+  border: none;
+}
+
+.arr-left {
+  position: absolute;
+  z-index: 2;
+  top: 370px;
+  width: 87px;
+  height: 50px;
+  left: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.arr-right {
+  position: absolute;
+  top: 370px;
+  width: 87px;
+  height: 50px;
+  margin-left: 1426px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.dot_1 {
+  border: 2px solid;
+  border-radius: 50%;
+}
+.dot {
+  position: absolute;
+  gap: 10px;
+  z-index: 4;
+  top: 600px;
+  width: 12px;
+  height: 12px;
+  left: 262px;
+  margin-top: 70px;
+}
+
+/* slider */
+.slider {
+  position: absolute;
+  /* background-color: red; */
+  width: 1920px;
+  height: 100vh;
+}
+.slider_line {
+  background-image: url(../img/main_img/BG.png);
+  background-size: 1720px 900px;
+  transition: all 1s;
+  width: 1920px;
+  height: 100vh;
+}
+.slick-pon {
+  background-image: url(../img/main_img/BG.png);
+  margin-right: 1000px;
+}
+
+.slide-1 {
+  position: absolute;
+  width: 1520px;
+  height: 100vh;
+  z-index: 1000;
+}
+.slider_dot {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #e4a16f;
+}
+.slider_dot:hover {
+  background-color: red;
+}
+.active-dot {
+  background-color: #bb8c5f;
+}
+/* Section production */
+.section {
+  position: absolute;
+  width: 1397px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 730px;
+  height: 100vh;
+}
+.text_section {
+  text-align: center;
+  margin: 80px 0 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74.9%;
+}
+.text_section_title {
+  font-size: 70px;
+}
+/* CARD */
+.card_main_section {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  z-index: 0;
+  position: relative;
+  max-width: 446px;
+  height: fit-content;
+}
+.card-1 {
+  z-index: 0;
+  position: relative;
+  max-width: 446px;
+  height: 491px;
+}
+.card_text {
+  position: absolute;
+  bottom: 0; /* изменено с "margin" на "bottom" */
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 27px 67px;
+}
+
+.card_img {
+  position: relative;
+  overflow: hidden;
+}
+.card_1::before {
+  background: linear-gradient(
+    180deg,
+    rgba(203, 141, 98, 0) 33.24%,
+    #cb8d62 104.72%
+  );
+}
+.card_2::before {
+  background: linear-gradient(
+    360deg,
+    rgba(7, 44, 38, 0.5) 0%,
+    rgba(7, 44, 38, 0) 100%
+  );
+}
+.card_3::before {
+  background: linear-gradient(
+    360deg,
+    rgba(7, 44, 38, 0.5) 0%,
+    rgba(7, 44, 38, 0) 100%
+  );
+}
+.card_4::before {
+  background: linear-gradient(
+    360deg,
+    rgba(7, 44, 38, 0.5) 16.04%,
+    rgba(7, 44, 38, 0) 77.71%
+  );
+}
+
+.card_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none; /* Important to allow interaction with the underlying image */
+}
+
+.card_img:hover::before {
+  opacity: 1;
+}
+
+.card_hover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Cards 4,5,6 */
+
+.card_2section {
+  margin-top: 30px;
+}
+
+/* slider best sales */
+.section_2 {
+  max-width: 100wh;
+  height: 100vh;
+  margin-top: 0px;
+}
+.text_section_2 {
+  margin-top: 2000px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.text_section_title_2 {
+  font-size: 50px;
+}
+.card-title {
+  color: #031412;
+}
+.price_seller {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #031412;
+}
+.card {
+  cursor: pointer;
+}
+.buy_button {
+  margin: 0 auto;
+}
+.button_h1 {
+  margin: 100px 698px 0 598px;
+  width: 327px;
+  height: 50px;
+  background: linear-gradient(92deg, #5e3928 20.13%, #e4a16f 92.93%);
+  border: none;
+}
+
+/* section 3 Sale */
+.main_title_section3 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.text_section_3 {
+  font-size: 50px;
+}
+.card-title {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.section_3_sale {
+}
+.sale_price {
+  opacity: 0.3;
+  text-align: end;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+.price_sele {
+  color: #9b0000;
+  text-align: end;
+  font-size: 30px;
+}
+.card_p {
+  display: flex;
+  flex-direction: column;
+}
+.price_dix1 {
+  display: flex;
+}
+
+.heart_like {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-left: 220px;
+  border: none;
+  background-color: #fff;
+  width: 50px;
+  height: 63px;
+}
+.heart_like_svg {
+  width: 30px;
+  height: 30px;
+  margin-top: 17px;
+}
+.heart_like_svg {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.heart_like_svg:hover {
+  background-color: (94, 57, 40, 1), rgba(228, 161, 111, 1);
+  transform: scale(1.1); /* Пример анимации при наведении */
+}
+
+.heart_like_svg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(94, 57, 40, 1), rgba(228, 161, 111, 1);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.heart_like_svg:hover::before {
+  opacity: 1;
+}
+
+/* fonts */
+/* Mont */
+
+@font-face {
+  font-family: "Mont Regular";
+  src: url("../fonts/mont/Mont-Regular.eot");
+  src: url("../fonts/mont/Mont-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/mont/Mont-Regular.woff") format("woff"),
+    url("../fonts/mont/Mont-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mont Bold";
+  src: url("../fonts/mont/Mont-Bold.eot");
+  src: url("../fonts/mont/Mont-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/mont/Mont-Bold.woff") format("woff"),
+    url("../fonts/mont/Mont-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mont Light";
+  src: url("../fonts/mont/Mont-Light.eot");
+  src: url("../fonts/mont/Mont-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/mont/Mont-Light.woff") format("woff"),
+    url("../fonts/mont/Mont-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* LightHaus */
+@font-face {
+  font-family: "Lighthaus Regular";
+  src: url("../fonts/lightHouse/Lighthaus.eot");
+  src: url("../fonts/lightHouse/Lighthaus.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/lightHouse/Lighthaus.woff") format("woff"),
+    url("../fonts/lightHouse/Lighthaus.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

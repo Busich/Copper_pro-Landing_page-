@@ -1,0 +1,63 @@
+@mixin mont_regular {
+  font-family: "Mont Bold";
+  color: #fff;
+  font-style: normal;
+}
+@mixin mont_light {
+  color: #fff;
+  font-family: "Mont Light";
+}
+
+@mixin lighthause_regular {
+  color: #031412;
+  font-family: "Lighthaus Regular";
+}
+
+.h2_title {
+  @include mont_regular();
+}
+
+.price_title_1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 96.4%;
+  margin-right: 109px;
+  @include mont_light();
+}
+.price_title_2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 96.4%;
+  @include mont_regular();
+}
+.buy_button {
+  font-size: 18px;
+  @include mont_regular();
+}
+.text_section {
+  @include lighthause_regular();
+}
+.card_text {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 96.4%;
+  @include mont_light();
+}
+.text_section_title_2 {
+  @include lighthause_regular();
+}
+.card-title {
+  color: #031412;
+  @include mont_light();
+}
+.price_seller {
+  @include mont_regular();
+}
+.main_title_section3 {
+  @include lighthause_regular();
+}
+.price_sele {
+  @include mont_regular();
+}
