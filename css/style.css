@@ -341,7 +341,7 @@ a {
   margin: 0 auto;
 }
 .button_h1 {
-  margin: 100px 698px 0 598px;
+  margin: 100px 628px 0 598px;
   width: 327px;
   height: 50px;
   background: linear-gradient(92deg, #5e3928 20.13%, #e4a16f 92.93%);
@@ -379,6 +379,22 @@ a {
 }
 .price_dix1 {
   display: flex;
+}
+.price_dix {
+  display: flex;
+}
+
+.sale_div {
+  margin-top: 27px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border: none;
+  background-color: #9b0000;
+  width: 84px;
+  height: 36px;
+  text-align: center;
 }
 
 .heart_like {
@@ -426,6 +442,36 @@ a {
   opacity: 1;
 }
 
+/* section переходящяя */
+.img_bg {
+  position: relative;
+}
+.image_cooper {
+  width: 100vw;
+}
+.title_text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 162px;
+  position: absolute;
+}
+.button_h2 {
+  margin-top: 20px;
+  width: 327px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "Mont Regular";
+  text-align: center;
+  font-size: 18px;
+  background: linear-gradient(92deg, #5e3928 20.13%, #e4a16f 92.93%);
+  border: none;
+}
+.link_btn {
+  color: #fff;
+}
 /* fonts */
 /* Mont */
 
